@@ -1,0 +1,14 @@
+.digitalClock {
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 1px 1px black;
+  font-weight: bold;
+  color: tomato;
+  font-size: 30px;
+  width: fit-content;
+  margin-top: 40px;
+
+  & > span {
+    color: black;
+  }
+}
