@@ -37,6 +37,7 @@ export class AnalogComponent implements OnInit, AfterViewInit {
     }, 1000);
   }
 
+  //This code to create an analog clock is imported from w3schools
   drawFace(context: CanvasRenderingContext2D, radius: number) {
     var grad;
     context.beginPath();

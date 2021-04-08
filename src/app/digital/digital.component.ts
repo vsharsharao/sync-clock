@@ -44,6 +44,5 @@ export class DigitalComponent implements OnInit {
     this.hour = hour < 10 ? "0" + hour : hour;
     this.min = min < 10 ? "0" + min : min;
     this.sec = sec < 10 ? "0" + sec : sec;
-    // this.currentDateTime = hour + "&nbsp;:" + min + "&nbsp;:" + sec + "&nbsp;&nbsp;" + am_pm;
   }
 }
